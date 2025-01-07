@@ -3,8 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
     <title>Background-image</title>
+    <style>
+        body{
+    background-image: url('image/wallpaper001.jpg');
+}
+
+div.quadrado{
+    border: 2px solid black;
+    display: inline-block;
+    width: 300px;
+    height: 300px;
+}
+
+#q1{
+    background-color: brown;
+}
+
+#q2{
+    background-image: linear-gradient(to right, yellow, rgb(0, 255, 13));
+}
+
+#q3{
+    background-image: url('image/pattern001.png');
+}
+    </style>
 </head>
 <body>
     <div class="quadrado" id="q1"></div>
